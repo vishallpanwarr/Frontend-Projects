@@ -1,0 +1,48 @@
+body {
+    background:black;
+}
+#alpha{
+    height:150px;
+    width:150px;
+    background:linear-gradient(magenta,cyan);
+    border-radius:50%;
+    position:absolute ;
+    top:50%;
+    left:50%;
+    transform:translate(-200px,-10px);
+}
+#beta{
+    height:100px;
+    width:100px;
+    background:linear-gradient(90deg,magenta,cyan);
+    border-radius:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(70px,-120px);
+}
+#base{
+    height:200px;
+    width:300px;
+    background:rgba(255,255,255,0.05);
+    border-radius:20px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:
+    1px 1px 1px rgba(255,255,255,0.3);
+    -1px -1px 1px rgba(255,255,255,0.3);
+    backdrop-filter:blur(20px);
+}
+#base::after{
+    content:"CODING VISHAL";
+    color:white;
+    text-align:center;
+    display:block;
+    position:relative;
+    top: calc(50% - 10px);
+}
+
+
+
