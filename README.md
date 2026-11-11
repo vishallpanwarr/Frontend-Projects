@@ -49,9 +49,3 @@ A curated collection of beginner-friendly to intermediate web development projec
 * **JavaScript (ES6+)**: For DOM manipulation, game logic, and app interactivity (in apps and games).
 
 ---
-
-## 🚀 Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
